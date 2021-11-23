@@ -1,0 +1,96 @@
+{
+   "@context": "http://iiif.io/api/presentation/2/context.json",
+   "@id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/117696a0afb411ea9bd68945338d326d/manifest.json",
+   "@type": "sc:Manifest",
+   "label": {
+      "@value": "The Disgrace of Wolsey",
+      "@language": "en"
+   },
+   "metadata": [{
+         "label": "author",
+         "value": "Anna Cooper and Martin Myrone"
+      },
+      {
+         "label": "provider",
+         "value": "cogapp"
+      }
+   ],
+   "manifestid": "117696a0afb411ea9bd68945338d326d",
+   "description": {
+      "@value": "Henry Monro, The Disgrace of Wolsey, Exhibited 1814. Oil on canvas, 191 x 122.5 cm. Tate (T06485)",
+      "@language": "en"
+   },
+   "viewingHint": "paged",
+   "viewingDirection": "left-to-right",
+   "attribution": "Tate (CC-BY-NC-ND 3.0).",
+   "sequences": [{
+      "@type": "sc:Sequence",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "canvases": [
+         {
+            "@id": "https://dlc.services/iiif-img/48/24/8cbbd205-adc7-4a32-9feb-fda012a165c1/canvas/c0",
+            "label": {
+               "@value": "September 14th",
+               "@language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@type": "sc:Canvas",
+            "width": 4777,
+            "height": 7476,
+            "images": [{
+               "resource": {
+                  "@id": "https://dlc.services/iiif-img/48/24/8cbbd205-adc7-4a32-9feb-fda012a165c1/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "width": 4777,
+                  "height": 7476,
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "profile": "http://iiif.io/api/image/1/level2.json",
+                     "@id": "https://dlc.services/iiif-img/48/24/8cbbd205-adc7-4a32-9feb-fda012a165c1"
+                  }
+               },
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "on": "https://dlc.services/iiif-img/48/24/8cbbd205-adc7-4a32-9feb-fda012a165c1/canvas/c0"
+            }],
+            "otherContent": [{
+               "@id": "https://raw.githubusercontent.com/paulmelloncentre/manifest/master/bas/monro-annotation-02",
+               "@type": "sc:AnnotationList"
+            }]
+         },
+         {
+            "@id": "https://dlc.services/iiif-img/48/24/250125bc-d231-464d-b0bc-945011abfd55/canvas/c0",
+            "label": {
+               "@value": "September 16th",
+               "@language": "en"
+            },
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@type": "sc:Canvas",
+            "width": 4777,
+            "height": 7476,
+            "images": [{
+               "resource": {
+                  "@id": "https://dlc.services/iiif-img/48/24/250125bc-d231-464d-b0bc-945011abfd55/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "width": 4777,
+                  "height": 7476,
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "profile": "http://iiif.io/api/image/1/level2.json",
+                     "@id": "https://dlc.services/iiif-img/48/24/250125bc-d231-464d-b0bc-945011abfd55"
+                  }
+               },
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "on": "https://dlc.services/iiif-img/48/24/250125bc-d231-464d-b0bc-945011abfd55/canvas/c0"
+            }],
+            "otherContent": [{
+               "@id": "https://raw.githubusercontent.com/paulmelloncentre/manifest/master/bas/monro-annotation-03",
+               "@type": "sc:AnnotationList"
+            }]
+         }
+      ]
+   }]
+}
