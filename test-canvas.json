@@ -3,7 +3,7 @@
 	"@id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/117696a0afb411ea9bd68945338d326d/manifest.json",
 	"@type": "sc:Manifest",
 	"label": {
-		"@value": "The Disgrace of Wolsey",
+		"@value": "BnF Latin 7286C",
 		"@language": "en"
 	},
 	"metadata": [{
