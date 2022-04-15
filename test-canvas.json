@@ -2,138 +2,159 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/117696a0afb411ea9bd68945338d326d/manifest.json",
 	"@type": "sc:Manifest",
-	"label": {
-		"@value": "BnF Latin 7286C",
-		"@language": "en"
-	},
-	"metadata": [{
-		"label": "author",
-		"value": "Matthieu Husson"
-	},
-	{
-		"label": "provider",
-		"value": "cogapp"
-	}
-],
+	"label":
+		{
+			"@value": "BnF Latin 7286C",
+			"@language": "en"
+		},
+	"metadata":
+		[
+			{
+				"label": "author",
+				"value": "Matthieu Husson"
+			},
+			{
+				"label": "provider",
+				"value": "cogapp"
+			}
+		],
 	"manifestid": "117696a0afb411ea9bd68945338d326d",
-	"description": {
-		"@value": "ALFA exhibition",
-		"@language": "en"
-	},
+	"description":
+		{
+			"@value": "ALFA exhibition",
+			"@language": "en"
+		},
 	"viewingHint": "paged",
 	"viewingDirection": "left-to-right",
 	"attribution": "Gallica (CC-BY-NC-ND 3.0).",
-	"sequences": [{
-		"@type": "sc:Sequence",
-		"@context": "http://iiif.io/api/presentation/2/context.json",
-		"canvases": [
-			{
-				"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/canvas/c0",
-				"label":{
-					"@value":"BnF_2786C_AP1\n by Matthieu Husson\n\nALFA exhibition\n\nGallica",
-					"@language":"en"
-				},
-				"@context":"http://iiif.io/api/presentation/2/context.json",
-				"@type":"sc:Canvas",
-				"width":792,
-				"height":5066,
-				"images":[
-					{
-						"resource":{
-							"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/full/full/0/default.jpg",
-							"@type":"dctypes:Image",
-							"format":"image/jpeg",
-							"width":792,
-							"height":5066,
-							"service":{
-								"@context":"http://iiif.io/api/image/2/context.json",
-								"profile":"http://iiif.io/api/image/1/level2.json",
-								"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129"
-							}
+	"sequences": [
+		{
+			"@type": "sc:Sequence",
+			"@context": "http://iiif.io/api/presentation/2/context.json",
+			"canvases": [
+				{
+					"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/canvas/c0",
+					"label":
+						{
+							"@value":"BnF_2786C_AP1\n by Matthieu Husson\n\nALFA exhibition\n\nGallica",
+							"@language":"en"
 						},
-						"@type":"oa:Annotation",
-						"motivation":"sc:painting",
-						"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/canvas/c0"
-					}
-				],
-				"otherContent":[
-					{
-						"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/d781c3f03e3411ec9957dd03ee4bd631/annotations.json",
-						"@type":"sc:AnnotationList"
-					}
-				]
-			},{
-				"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/canvas/c0",
-				"label":{
-					"@value":"BnF_7286C_AP2\n by Matthieu Husson\n\nAlfa exhibition\n\nGallica",
-					"@language":"en"
-				},
-				"@context":"http://iiif.io/api/presentation/2/context.json",
-				"@type":"sc:Canvas",
-				"width":3749,
-				"height":5089,
-				"images":[
-					{
-						"resource":{
-							"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/full/full/0/default.jpg",
-							"@type":"dctypes:Image",
-							"format":"image/jpeg",
-							"width":3749,
-							"height":5089,
-							"service":{
-								"@context":"http://iiif.io/api/image/2/context.json",
-								"profile":"http://iiif.io/api/image/1/level2.json",
-								"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7"
+					"@context":"http://iiif.io/api/presentation/2/context.json",
+					"@type":"sc:Canvas",
+					"width":792,
+					"height":5066,
+					"images":
+						[
+							{
+								"resource":
+									{
+										"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/full/full/0/default.jpg",
+										"@type":"dctypes:Image",
+										"format":"image/jpeg",
+										"width":792,
+										"height":5066,
+										"service":
+											{
+												"@context":"http://iiif.io/api/image/2/context.json",
+												"profile":"http://iiif.io/api/image/1/level2.json",
+												"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129"
+											}
+									},
+								"@type":"oa:Annotation",
+								"motivation":"sc:painting",
+								"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f129/canvas/c0"
 							}
-						},
-						"@type":"oa:Annotation",
-						"motivation":"sc:painting",
-						"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/canvas/c0"
-					}
-				],
-				"otherContent":[
-					{
-						"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/41aa2af03e3611ec8a3423134d925db4/annotations.json",
-						"@type":"sc:AnnotationList"
-					}
-				]
-			},
-			{
-				"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/canvas/c0",
-				"label":{
-					"@value":"BnF_7286C_AP3\n by Matthieu Husson\n\nAlfa exhibition\n\ngallica",
-					"@language":"en"
-				},
-				"@context":"http://iiif.io/api/presentation/2/context.json",
-				"@type":"sc:Canvas",
-				"width":3749,
-				"height":5089,
-				"images":[
-					{
-						"resource":{
-							"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/full/full/0/default.jpg",
-							"@type":"dctypes:Image",
-							"format":"image/jpeg",
-							"width":3749,
-							"height":5089,
-							"service":{
-								"@context":"http://iiif.io/api/image/2/context.json",
-								"profile":"http://iiif.io/api/image/1/level2.json",
-								"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13"
+						],
+					"otherContent":
+						[
+							{
+								"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/d781c3f03e3411ec9957dd03ee4bd631/annotations.json",
+								"@type":"sc:AnnotationList"
 							}
+						]
+				},{
+					"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/canvas/c0",
+					"label":
+						{
+							"@value":"BnF_7286C_AP2\n by Matthieu Husson\n\nAlfa exhibition\n\nGallica",
+							"@language":"en"
 						},
-						"@type":"oa:Annotation",
-						"motivation":"sc:painting",
-						"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/canvas/c0"
-					}
-				],
-				"otherContent":[
-					{
-						"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/ea758b803e3a11ec8e50f583934af6f5/annotations.json",
-						"@type":"sc:AnnotationList"
-					}
-				]
-			}
-		]
-	}]
+					"@context":"http://iiif.io/api/presentation/2/context.json",
+					"@type":"sc:Canvas",
+					"width":3749,
+					"height":5089,
+					"images":
+						[
+							{
+								"resource":
+									{
+										"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/full/full/0/default.jpg",
+										"@type":"dctypes:Image",
+										"format":"image/jpeg",
+										"width":3749,
+										"height":5089,
+										"service":
+											{
+												"@context":"http://iiif.io/api/image/2/context.json",
+												"profile":"http://iiif.io/api/image/1/level2.json",
+												"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7"
+											}
+									},
+								"@type":"oa:Annotation",
+								"motivation":"sc:painting",
+								"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f7/canvas/c0"
+							}
+						],
+					"otherContent":
+						[
+							{
+								"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/41aa2af03e3611ec8a3423134d925db4/annotations.json",
+								"@type":"sc:AnnotationList"
+							}
+						]
+				},
+				{
+					"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/canvas/c0",
+					"label":
+						{
+							"@value":"BnF_7286C_AP3\n by Matthieu Husson\n\nAlfa exhibition\n\ngallica",
+							"@language":"en"
+						},
+					"@context":"http://iiif.io/api/presentation/2/context.json",
+					"@type":"sc:Canvas",
+					"width":3749,
+					"height":5089,
+					"images":
+						[
+							{
+								"resource":
+									{
+										"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/full/full/0/default.jpg",
+										"@type":"dctypes:Image",
+										"format":"image/jpeg",
+										"width":3749,
+										"height":5089,
+										"service":
+											{
+												"@context":"http://iiif.io/api/image/2/context.json",
+												"profile":"http://iiif.io/api/image/1/level2.json",
+												"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13"
+											}
+									},
+								"@type":"oa:Annotation",
+								"motivation":"sc:painting",
+								"on":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b525140147/f13/canvas/c0"
+							}
+						],
+					"otherContent":
+						[
+							{
+								"@id":"https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/ea758b803e3a11ec8e50f583934af6f5/annotations.json",
+								"@type":"sc:AnnotationList"
+							}
+						]
+				}
+			]
+		}
+	]
 }
